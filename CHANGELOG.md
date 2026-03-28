@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.2.0] - 2026-03-28
+
+### Added
+
+- New README with AI pipeline positioning, AnyModel/AnySerp use cases, LangGraph comparison
+- Published to npm
+- Exhaustive test suite (33 tests: engine, store, types)
+- "See Also" cross-links to related packages
+
 ## [0.1.0] - 2026-03-26
 
 ### Added
