@@ -10,6 +10,7 @@ All notable changes to this project will be documented in this file.
 - Published to npm
 - Exhaustive test suite (33 tests: engine, store, types)
 - "See Also" cross-links to related packages
+- GitHub Actions CI (Node 20/22 matrix) and publish workflow
 
 ## [0.1.0] - 2026-03-26
 
