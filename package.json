@@ -1,7 +1,7 @@
 {
   "name": "@probeo/workflow",
-  "version": "0.1.0",
-  "description": "Lightweight workflow engine with per-item concurrency and stage-based pipelines",
+  "version": "0.2.0",
+  "description": "Stage-based pipeline engine for AI workloads. Zero dependencies. Code decides what happens. AI does the work.",
   "type": "module",
   "main": "dist/index.cjs",
   "module": "dist/index.js",
