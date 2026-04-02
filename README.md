@@ -1,5 +1,10 @@
 # @probeo/workflow
 
+[![npm version](https://img.shields.io/npm/v/@probeo/workflow)](https://www.npmjs.com/package/@probeo/workflow)
+[![npm downloads](https://img.shields.io/npm/dm/@probeo/workflow)](https://www.npmjs.com/package/@probeo/workflow)
+[![license](https://img.shields.io/npm/l/@probeo/workflow)](https://github.com/probeo-io/workflow/blob/main/LICENSE)
+[![CI](https://github.com/probeo-io/workflow/actions/workflows/ci.yml/badge.svg)](https://github.com/probeo-io/workflow/actions/workflows/ci.yml)
+
 Stage-based pipeline engine for AI workloads. Zero dependencies. Code decides what happens. AI does the work.
 
 Most AI pipelines are linear: fetch data, analyze it, enrich it, summarize it. Some stages call LLMs. Some don't. The control flow is deterministic even when AI is involved. You don't need a graph framework for that.
@@ -279,6 +284,10 @@ But most AI workloads are pipelines. Items flow through stages. Some stages call
 | [workflow-go](https://github.com/probeo-io/workflow-go) | Go version of this package |
 | [@probeo/anymodel](https://github.com/probeo-io/anymodel) | Unified LLM router for TypeScript |
 | [@probeo/anyserp](https://github.com/probeo-io/anyserp) | Unified SERP API router for TypeScript |
+
+## Support
+
+If workflow is useful to you, consider giving it a star. It helps others discover the project.
 
 ## License
 
