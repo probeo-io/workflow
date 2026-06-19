@@ -22,6 +22,7 @@
     "dist"
   ],
   "scripts": {
+    "prepare": "npm run build",
     "build": "tsup",
     "test": "vitest run",
     "lint": "tsc --noEmit"
