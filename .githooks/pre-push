@@ -1,0 +1,5 @@
+#!/bin/sh
+echo "[pre-push] building dist..."
+npm run build || { echo "[pre-push] build failed, push aborted"; exit 1; }
+git add dist/
+git diff --cached --quiet dist/ || git commit -m "chore: rebuild dist"
